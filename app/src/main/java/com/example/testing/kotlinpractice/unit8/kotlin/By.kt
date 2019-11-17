@@ -1,6 +1,6 @@
-package com.example.testing.kotlinpractice.unit2.kotlin
+package com.example.testing.kotlinpractice.unit8.kotlin
 
-
+//todo 动态代理
 interface Animal {
     fun bark()
 }
@@ -16,6 +16,7 @@ class Zoo(animal: Animal) : Animal by animal {
         println("zoo")
     }
 }
+
 
 fun main(args: Array<String>) {
     Zoo(Dog()).bark()
