@@ -1,6 +1,6 @@
 package com.example.testing.kotlinpractice.unit8.kotlin
 
-//todo 动态代理
+// 动态代理 todo
 interface Animal {
     fun bark()
 }

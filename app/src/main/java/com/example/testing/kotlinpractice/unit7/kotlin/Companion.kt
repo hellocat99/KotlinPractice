@@ -4,21 +4,15 @@ package com.example.testing.kotlinpractice.unit7.kotlin
 class Single private constructor() {
 
     companion object {   //companion object 表示伴生对象
-        init {
-
-        }
-
         fun get(): Single {
             return Holder.instance
         }
     }
 
-    //todo object
     private object Holder {
         init {
             println("holder")
         }
-
         val instance = Single()
     }
 }
